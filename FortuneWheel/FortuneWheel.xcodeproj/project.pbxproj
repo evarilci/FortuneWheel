@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E541319B2A023F25000DC541 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E541319A2A023F25000DC541 /* AppDelegate.swift */; };
+		E541319D2A023F25000DC541 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E541319C2A023F25000DC541 /* SceneDelegate.swift */; };
+		E541319F2A023F25000DC541 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E541319E2A023F25000DC541 /* ViewController.swift */; };
+		E54131A42A023F33000DC541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E54131A32A023F33000DC541 /* Assets.xcassets */; };
+		E54131A72A023F33000DC541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E54131A52A023F33000DC541 /* LaunchScreen.storyboard */; };
+		E54642C22A02436100BFB8B3 /* FortuneWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54642C12A02436100BFB8B3 /* FortuneWheel.swift */; };
+		E54642C42A02439C00BFB8B3 /* Slice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54642C32A02439C00BFB8B3 /* Slice.swift */; };
+		E54642C62A02461F00BFB8B3 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54642C52A02461F00BFB8B3 /* Error.swift */; };
+		E54642C82A02463600BFB8B3 /* FortuneWheelSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54642C72A02463600BFB8B3 /* FortuneWheelSlice.swift */; };
+		E54642CA2A024AF900BFB8B3 /* UIImage + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54642C92A024AF900BFB8B3 /* UIImage + Extension.swift */; };
+		E54642CC2A024B4D00BFB8B3 /* Degree + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54642CB2A024B4D00BFB8B3 /* Degree + Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E54131972A023F25000DC541 /* FortuneWheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FortuneWheel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E541319A2A023F25000DC541 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E541319C2A023F25000DC541 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E541319E2A023F25000DC541 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E54131A32A023F33000DC541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E54131A62A023F33000DC541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E54131A82A023F33000DC541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E54642C12A02436100BFB8B3 /* FortuneWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneWheel.swift; sourceTree = "<group>"; };
+		E54642C32A02439C00BFB8B3 /* Slice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slice.swift; sourceTree = "<group>"; };
+		E54642C52A02461F00BFB8B3 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		E54642C72A02463600BFB8B3 /* FortuneWheelSlice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneWheelSlice.swift; sourceTree = "<group>"; };
+		E54642C92A024AF900BFB8B3 /* UIImage + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage + Extension.swift"; sourceTree = "<group>"; };
+		E54642CB2A024B4D00BFB8B3 /* Degree + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Degree + Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E54131942A023F25000DC541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E541318E2A023F25000DC541 = {
+			isa = PBXGroup;
+			children = (
+				E54131992A023F25000DC541 /* FortuneWheel */,
+				E54131982A023F25000DC541 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E54131982A023F25000DC541 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E54131972A023F25000DC541 /* FortuneWheel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E54131992A023F25000DC541 /* FortuneWheel */ = {
+			isa = PBXGroup;
+			children = (
+				E541319A2A023F25000DC541 /* AppDelegate.swift */,
+				E541319C2A023F25000DC541 /* SceneDelegate.swift */,
+				E541319E2A023F25000DC541 /* ViewController.swift */,
+				E54642C32A02439C00BFB8B3 /* Slice.swift */,
+				E54642C12A02436100BFB8B3 /* FortuneWheel.swift */,
+				E54642C72A02463600BFB8B3 /* FortuneWheelSlice.swift */,
+				E54642C92A024AF900BFB8B3 /* UIImage + Extension.swift */,
+				E54642CB2A024B4D00BFB8B3 /* Degree + Extension.swift */,
+				E54642C52A02461F00BFB8B3 /* Error.swift */,
+				E54131A32A023F33000DC541 /* Assets.xcassets */,
+				E54131A52A023F33000DC541 /* LaunchScreen.storyboard */,
+				E54131A82A023F33000DC541 /* Info.plist */,
+			);
+			path = FortuneWheel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E54131962A023F25000DC541 /* FortuneWheel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E54131AB2A023F33000DC541 /* Build configuration list for PBXNativeTarget "FortuneWheel" */;
+			buildPhases = (
+				E54131932A023F25000DC541 /* Sources */,
+				E54131942A023F25000DC541 /* Frameworks */,
+				E54131952A023F25000DC541 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FortuneWheel;
+			productName = FortuneWheel;
+			productReference = E54131972A023F25000DC541 /* FortuneWheel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E541318F2A023F25000DC541 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E54131962A023F25000DC541 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = E54131922A023F25000DC541 /* Build configuration list for PBXProject "FortuneWheel" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E541318E2A023F25000DC541;
+			productRefGroup = E54131982A023F25000DC541 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E54131962A023F25000DC541 /* FortuneWheel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E54131952A023F25000DC541 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E54131A72A023F33000DC541 /* LaunchScreen.storyboard in Resources */,
+				E54131A42A023F33000DC541 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E54131932A023F25000DC541 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E54642C42A02439C00BFB8B3 /* Slice.swift in Sources */,
+				E541319F2A023F25000DC541 /* ViewController.swift in Sources */,
+				E54642C82A02463600BFB8B3 /* FortuneWheelSlice.swift in Sources */,
+				E541319B2A023F25000DC541 /* AppDelegate.swift in Sources */,
+				E54642CC2A024B4D00BFB8B3 /* Degree + Extension.swift in Sources */,
+				E54642C22A02436100BFB8B3 /* FortuneWheel.swift in Sources */,
+				E54642CA2A024AF900BFB8B3 /* UIImage + Extension.swift in Sources */,
+				E54642C62A02461F00BFB8B3 /* Error.swift in Sources */,
+				E541319D2A023F25000DC541 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E54131A52A023F33000DC541 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E54131A62A023F33000DC541 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E54131A92A023F33000DC541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E54131AA2A023F33000DC541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E54131AC2A023F33000DC541 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FRL9LW42K7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FortuneWheel/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eymenVarilci.FortuneWheel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E54131AD2A023F33000DC541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FRL9LW42K7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FortuneWheel/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eymenVarilci.FortuneWheel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E54131922A023F25000DC541 /* Build configuration list for PBXProject "FortuneWheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E54131A92A023F33000DC541 /* Debug */,
+				E54131AA2A023F33000DC541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E54131AB2A023F33000DC541 /* Build configuration list for PBXNativeTarget "FortuneWheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E54131AC2A023F33000DC541 /* Debug */,
+				E54131AD2A023F33000DC541 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E541318F2A023F25000DC541 /* Project object */;
+}
